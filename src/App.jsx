@@ -12,7 +12,7 @@ const App = () => {
       status: "uncompleat"
     },
     {
-      text: "go to ade's party",
+      text: "go to bola's party",
       status: "uncompleat"
     },
   ])
