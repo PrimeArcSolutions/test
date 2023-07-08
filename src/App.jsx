@@ -26,7 +26,10 @@ const App = () => {
       text: input,
       status: "uncompleat"
     }
-    const newTodos = [...todos, newTodo]
+
+    const newTodos = [...todos]
+
+    newTodos = newTodos.push(newTodo)
 
     setTodos(newTodos)
     setInput("")
