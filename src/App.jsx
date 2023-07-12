@@ -8,7 +8,7 @@ const App = () => {
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState([
     {
-      text: "call dad",
+      text: "call umar",
       status: "uncompleat"
     },
     {
